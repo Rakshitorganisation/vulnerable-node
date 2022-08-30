@@ -1,6 +1,5 @@
 name: PR Verification
-  on:
-    pull_request:
+on: [pull_request]
 jobs:
   sonarqube:
     name: SonarQube Scan
